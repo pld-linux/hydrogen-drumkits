@@ -15,9 +15,8 @@ Source3:	http://dl.sourceforge.net/hydrogen/EasternHop-1.tar.gz
 # Source3-md5:	def807440c5a5e01e22f2b7a52a872df
 Source4:	http://dl.sourceforge.net/hydrogen/TD-7.tar.gz
 # Source4-md5:	2ccaed2a392a97143f31f52488fdde74
-URL:		http://hydrogen.sourceforge.net
+URL:		http://hydrogen.sourceforge.net/
 BuildArch:	noarch
-Requires:	hydrogen
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
