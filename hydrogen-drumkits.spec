@@ -57,7 +57,7 @@ Group:          Applications/Sound
 Requires:	libhydrogen
 
 %description DrumkitPack2
-Hydrogen drumkit DrumkitPack1.
+Hydrogen drumkit DrumkitPack2.
 
 %description DrumkitPack2 -l pl
 Zestaw perkusyjny DrumkitPack2 dla Hydrogena.
