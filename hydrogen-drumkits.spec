@@ -40,7 +40,7 @@ Zestawy perkusyjne dla Hydrogena.
 %package 3355606
 Summary:	Hydrogen drumkit 3355606
 Summary(pl):	Zestaw perkusyjny 3355606 dla Hydrogena
-Group:          Applications/Sound
+Group:		Applications/Sound
 Requires:	hydrogen >= %{hydrogen_version}
 
 %description 3355606
@@ -52,7 +52,7 @@ Zestaw perkusyjny 3355606 dla Hydrogena.
 %package DrumkitPack1
 Summary:	Hydrogen drumkit DrumkitPack1
 Summary(pl):	Zestaw perkusyjny DrumkitPack1 dla Hydrogena
-Group:          Applications/Sound
+Group:		Applications/Sound
 Requires:	hydrogen >= %{hydrogen_version}
 
 %description DrumkitPack1
@@ -64,7 +64,7 @@ Zestaw perkusyjny DrumkitPack1 dla Hydrogena.
 %package DrumkitPack2
 Summary:	Hydrogen drumkit DrumkitPack2
 Summary(pl):	Zestaw perkusyjny DrumkitPack2 dla Hydrogena
-Group:          Applications/Sound
+Group:		Applications/Sound
 Requires:	hydrogen >= %{hydrogen_version}
 
 %description DrumkitPack2
@@ -76,7 +76,7 @@ Zestaw perkusyjny DrumkitPack2 dla Hydrogena.
 %package EasternHop-1
 Summary:	Hydrogen drumkit EasternHop-1
 Summary(pl):	Zestaw perkusyjny EasternHop-1 dla Hydrogena
-Group:          Applications/Sound
+Group:		Applications/Sound
 Requires:	hydrogen >= %{hydrogen_version}
 
 %description EasternHop-1
@@ -88,7 +88,7 @@ Zestaw perkusyjny EasternHop-1 dla Hydrogena.
 %package TD-7
 Summary:	Hydrogen drumkit TD-7
 Summary(pl):	Zestaw perkusyjny TD-7 dla Hydrogena
-Group:          Applications/Sound
+Group:		Applications/Sound
 Requires:	hydrogen >= %{hydrogen_version}
 
 %description TD-7
@@ -100,7 +100,7 @@ Zestaw perkusyjny TD-7 dla Hydrogena.
 %package UltraAcousticKit
 Summary:	Hydrogen drumkit UltraAcousticKit
 Summary(pl):	Zestaw perkusyjny UltraAcousticKit
-Group:          Applications/Sound
+Group:		Applications/Sound
 Requires:	hydrogen >= %{hydrogen_version}
 
 %description UltraAcousticKit
@@ -112,7 +112,7 @@ Zestaw perkusyjny UltraAcousticKit dla Hydrogena.
 %package Millo-MultiLayered2
 Summary:	Hydrogen drumkit Millo-MultiLayered2
 Summary(pl):	Zestaw perkusyjny Millo-MultiLayered2 dla Hydrogena
-Group:          Applications/Sound
+Group:		Applications/Sound
 Requires:	hydrogen >= %{hydrogen_version}
 
 %description Millo-MultiLayered2
@@ -124,7 +124,7 @@ Zestaw perkusyjny Millo-MultiLayered2 dla Hydrogena.
 %package HardElectro1
 Summary:	Hydrogen drumkit HardElectro1
 Summary(pl):	Zestaw perkusyjny HardElectro1 dla Hydrogena
-Group:          Applications/Sound
+Group:		Applications/Sound
 Requires:	hydrogen >= %{hydrogen_version}
 
 %description HardElectro1
@@ -136,7 +136,7 @@ Zestaw perkusyjny HardElectro1 dla Hydrogena.
 %package ErnysPercussion
 Summary:	Hydrogen drumkit ErnysPercussion
 Summary(pl):	Zestaw perkusyjny ErnysPercussion dla Hydrogena
-Group:          Applications/Sound
+Group:		Applications/Sound
 Requires:	hydrogen >= %{hydrogen_version}
 
 %description ErnysPercussion
@@ -148,7 +148,7 @@ Zestaw perkusyjny ErnysPercussion dla Hydrogena.
 %package Millo-Drums_v.1
 Summary:	Hydrogen drumkit Millo-Drums_v.1
 Summary(pl):	Zestaw perkusyjny Millo-Drums_v.1 dla Hydrogena
-Group:          Applications/Sound
+Group:		Applications/Sound
 Requires:	hydrogen >= %{hydrogen_version}
 
 %description Millo-Drums_v.1
@@ -198,14 +198,14 @@ tar zxf Millo-Drums_v1/Millo-Drums_v.1.h2drumkit -C \
 	$RPM_BUILD_ROOT%{_datadir}/hydrogen/data/drumkits
 
 install -d \
-$RPM_BUILD_ROOT%{_datadir}/hydrogen/data/drumkits/Millo_MultiLayered2
+	$RPM_BUILD_ROOT%{_datadir}/hydrogen/data/drumkits/Millo_MultiLayered2
 install Millo_MultiLayered2/* \
-$RPM_BUILD_ROOT%{_datadir}/hydrogen/data/drumkits/Millo_MultiLayered2
+	$RPM_BUILD_ROOT%{_datadir}/hydrogen/data/drumkits/Millo_MultiLayered2
 
 install -d \
-$RPM_BUILD_ROOT%{_datadir}/hydrogen/data/drumkits/ErnysPercussion
+	$RPM_BUILD_ROOT%{_datadir}/hydrogen/data/drumkits/ErnysPercussion
 install ErnysPercussion/* \
-$RPM_BUILD_ROOT%{_datadir}/hydrogen/data/drumkits/ErnysPercussion
+	$RPM_BUILD_ROOT%{_datadir}/hydrogen/data/drumkits/ErnysPercussion
 
 %clean
 rm -rf $RPM_BUILD_ROOT
