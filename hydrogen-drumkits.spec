@@ -5,25 +5,25 @@ Version:	1.0
 Release:	4
 License:	GPL
 Group:		Applications/Sound
-Source0:	http://heanet.dl.sourceforge.net/hydrogen/3355606.tar.gz
+Source0:	http://dl.sourceforge.net/hydrogen/3355606.tar.gz
 # Source0-md5:	1980647fa79029fa1dd1eb4f5ad14d65
-Source1:	http://heanet.dl.sourceforge.net/hydrogen/DrumkitPack1.tar.gz
+Source1:	http://dl.sourceforge.net/hydrogen/DrumkitPack1.tar.gz
 # Source1-md5:	8ddc8e3f5d02f5e2f12533db45e77c55
-Source2:	http://heanet.dl.sourceforge.net/hydrogen/DrumkitPack2.tar.gz
+Source2:	http://dl.sourceforge.net/hydrogen/DrumkitPack2.tar.gz
 # Source2-md5:	535b873aead13de2105cc2a5609ec977
-Source3:	http://heanet.dl.sourceforge.net/hydrogen/EasternHop-1.tar.gz
+Source3:	http://dl.sourceforge.net/hydrogen/EasternHop-1.tar.gz
 # Source3-md5:	def807440c5a5e01e22f2b7a52a872df
-Source4:	http://heanet.dl.sourceforge.net/hydrogen/TD-7.tar.gz
+Source4:	http://dl.sourceforge.net/hydrogen/TD-7.tar.gz
 # Source4-md5:	2ccaed2a392a97143f31f52488fdde74
-Source5:	http://heanet.dl.sourceforge.net/hydrogen/UltraAcousticKit.tar.gz
+Source5:	http://dl.sourceforge.net/hydrogen/UltraAcousticKit.tar.gz
 # Source5-md5:	ee0974b404d34a2c5cf3d8f3952a80e9
-Source6:	http://heanet.dl.sourceforge.net/hydrogen/Millo_MultiLayered2.h2drumkit
+Source6:	http://dl.sourceforge.net/hydrogen/Millo_MultiLayered2.h2drumkit
 # Source6-md5:	9388f63cab321af979387493e0505ac6
-Source7:	http://heanet.dl.sourceforge.net/hydrogen/HardElectro1.tar.gz
+Source7:	http://dl.sourceforge.net/hydrogen/HardElectro1.tar.gz
 # Source7-md5:	bc2bcc16d404441ef3a5b1b86c6c4a25
-Source8:	http://heanet.dl.sourceforge.net/hydrogen/ErnysPercussion.h2drumkit
+Source8:	http://dl.sourceforge.net/hydrogen/ErnysPercussion.h2drumkit
 # Source8-md5:	0e96f5971d5db887a186d5739c12ab77
-Source9:	http://heanet.dl.sourceforge.net/hydrogen/Millo-Drums_v1.tar.gz
+Source9:	http://dl.sourceforge.net/hydrogen/Millo-Drums_v1.tar.gz
 # Source9-md5:	8a573ea8040aa8ee3dacfcb3d3fc4ab8
 Source10:	http://artemiolabs.com/downloads/audio/hydrogen/EE.tar.bz2
 # Source10-md5:	30770027d83f4d5d4d0ff100d5fd4ed5
