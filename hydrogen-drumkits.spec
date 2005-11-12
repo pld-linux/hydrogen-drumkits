@@ -2,29 +2,33 @@ Summary:	Hydrogen drumkits
 Summary(pl):	Zestawy perkusyjne dla Hydrogena
 Name:		hydrogen-drumkits
 Version:	1.0
-Release:	3
+Release:	4
 License:	GPL
 Group:		Applications/Sound
-Source0:	http://dl.sourceforge.net/hydrogen/3355606.tar.gz
+Source0:	http://heanet.dl.sourceforge.net/hydrogen/3355606.tar.gz
 # Source0-md5:	1980647fa79029fa1dd1eb4f5ad14d65
-Source1:	http://dl.sourceforge.net/hydrogen/DrumkitPack1.tar.gz
+Source1:	http://heanet.dl.sourceforge.net/hydrogen/DrumkitPack1.tar.gz
 # Source1-md5:	8ddc8e3f5d02f5e2f12533db45e77c55
-Source2:	http://dl.sourceforge.net/hydrogen/DrumkitPack2.tar.gz
+Source2:	http://heanet.dl.sourceforge.net/hydrogen/DrumkitPack2.tar.gz
 # Source2-md5:	535b873aead13de2105cc2a5609ec977
-Source3:	http://dl.sourceforge.net/hydrogen/EasternHop-1.tar.gz
+Source3:	http://heanet.dl.sourceforge.net/hydrogen/EasternHop-1.tar.gz
 # Source3-md5:	def807440c5a5e01e22f2b7a52a872df
-Source4:	http://dl.sourceforge.net/hydrogen/TD-7.tar.gz
+Source4:	http://heanet.dl.sourceforge.net/hydrogen/TD-7.tar.gz
 # Source4-md5:	2ccaed2a392a97143f31f52488fdde74
-Source5:	http://dl.sourceforge.net/hydrogen/UltraAcousticKit.tar.gz
+Source5:	http://heanet.dl.sourceforge.net/hydrogen/UltraAcousticKit.tar.gz
 # Source5-md5:	ee0974b404d34a2c5cf3d8f3952a80e9
-Source6:	http://dl.sourceforge.net/hydrogen/Millo_MultiLayered2.h2drumkit
+Source6:	http://heanet.dl.sourceforge.net/hydrogen/Millo_MultiLayered2.h2drumkit
 # Source6-md5:	9388f63cab321af979387493e0505ac6
-Source7:	http://dl.sourceforge.net/hydrogen/HardElectro1.tar.gz
+Source7:	http://heanet.dl.sourceforge.net/hydrogen/HardElectro1.tar.gz
 # Source7-md5:	bc2bcc16d404441ef3a5b1b86c6c4a25
-Source8:	http://dl.sourceforge.net/hydrogen/ErnysPercussion.h2drumkit
+Source8:	http://heanet.dl.sourceforge.net/hydrogen/ErnysPercussion.h2drumkit
 # Source8-md5:	0e96f5971d5db887a186d5739c12ab77
-Source9:	http://dl.sourceforge.net/hydrogen/Millo-Drums_v1.tar.gz
+Source9:	http://heanet.dl.sourceforge.net/hydrogen/Millo-Drums_v1.tar.gz
 # Source9-md5:	8a573ea8040aa8ee3dacfcb3d3fc4ab8
+Source10:	http://artemiolabs.com/downloads/audio/hydrogen/EE.tar.bz2
+# Source10-md5:	30770027d83f4d5d4d0ff100d5fd4ed5
+Source11:	http://www.hydrogen-music.org/download/drumkits/YamahaVintageKit.zip
+# Source11-md5:	0ece14af942ecacf2de26bbcd57ce41e
 URL:		http://hydrogen.sourceforge.net/
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -157,8 +161,32 @@ Hydrogen drumkit Millo-Drums_v.1.
 %description Millo-Drums_v.1 -l pl
 Zestaw perkusyjny Millo-Drums_v.1 dla Hydrogena.
 
+%package Electric-Empire-Kit
+Summary:	Hydrogen drumkit Electric Empire Kit
+Summary(pl):	Zestaw perkusyjny Electric Empire Kit dla Hydrogena
+Group:		Applications/Sound
+Requires:	hydrogen >= %{hydrogen_version}
+
+%description Electric-Empire-Kit
+Hydrogen drumkit Electric Empire Kit.
+
+%description Electric-Empire-Kit -l pl
+Zestaw perkusyjny ElectricEmpireKit dla Hydrogena.
+
+%package Yamaha-Vintage-Kit
+Summary:	Hydrogen drumkit Yamaha Vintage Kit
+Summary(pl):	Zestaw perkusyjny Yamaha Vintage Kit dla Hydrogena
+Group:		Applications/Sound
+Requires:	hydrogen >= %{hydrogen_version}
+
+%description Yamaha-Vintage-Kit
+Hydrogen drumkit Yamaha Vintage Kit.
+
+%description Yamaha-Vintage-Kit -l pl
+Zestaw perkusyjny Yamaha Vintage Kit dla Hydrogena.
+
 %prep
-%setup -q -c -a1 -a2 -a3 -a4 -a5 -a6 -a7 -a8 -a9
+%setup -q -c -a1 -a2 -a3 -a4 -a5 -a6 -a7 -a8 -a9 -a10 -a11
 
 %install
 rm -rf $RPM_BUILD_ROOT
@@ -168,7 +196,8 @@ install -d $RPM_BUILD_ROOT%{_datadir}/hydrogen/data/drumkits \
 mv Millo-Drums_v1/demo\ songs Millo-Drums_v1/demo_songs
 
 for dir in 3355606 DrumkitPack1 DrumkitPack2 EasternHop-1 TD-7 \
-	UltraAcousticKit HardElectro1 Millo-Drums_v1/demo_songs
+	UltraAcousticKit HardElectro1 Millo-Drums_v1/demo_songs \
+	EE YamahaVintageKit
 do
 install $dir/*.h2song \
 	$RPM_BUILD_ROOT%{_datadir}/hydrogen/data/demo_songs
@@ -195,6 +224,10 @@ tar zxf UltraAcousticKit/UltraAcousticKit.h2drumkit -C \
 tar zxf HardElectro1/HardElectro1.h2drumkit -C \
 	$RPM_BUILD_ROOT%{_datadir}/hydrogen/data/drumkits
 tar zxf Millo-Drums_v1/Millo-Drums_v.1.h2drumkit -C \
+	$RPM_BUILD_ROOT%{_datadir}/hydrogen/data/drumkits
+tar zxf EE/ElectricEmpireKit.h2drumkit -C \
+	$RPM_BUILD_ROOT%{_datadir}/hydrogen/data/drumkits
+tar zxf YamahaVintageKit/YamahaVintageKit.h2drumkit -C \
 	$RPM_BUILD_ROOT%{_datadir}/hydrogen/data/drumkits
 
 install -d \
@@ -269,3 +302,13 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/hydrogen/data/demo_songs/NewJazzy.h2song
 %{_datadir}/hydrogen/data/demo_songs/rullada.h2song
 %{_datadir}/hydrogen/data/demo_songs/tipododiciottavi.h2song
+
+%files Electric-Empire-Kit
+%defattr(644,root,root,755)
+%{_datadir}/hydrogen/data/drumkits/ElectricEmpireKit
+%{_datadir}/hydrogen/data/demo_songs/ElectricEmpireKit_demo.h2song
+
+%files Yamaha-Vintage-Kit
+%defattr(644,root,root,755)
+%{_datadir}/hydrogen/data/drumkits/YamahaVintageKit
+%{_datadir}/hydrogen/data/demo_songs/YamahaVintageKit_demo.h2song
