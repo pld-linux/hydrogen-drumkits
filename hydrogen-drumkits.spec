@@ -1,5 +1,5 @@
 Summary:	Hydrogen drumkits
-Summary(pl):	Zestawy perkusyjne dla Hydrogena
+Summary(pl.UTF-8):   Zestawy perkusyjne dla Hydrogena
 Name:		hydrogen-drumkits
 Version:	1.0
 Release:	4
@@ -38,151 +38,151 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Hydrogen drumkits.
 
-%description -l pl
+%description -l pl.UTF-8
 Zestawy perkusyjne dla Hydrogena.
 
 %package 3355606
 Summary:	Hydrogen drumkit 3355606
-Summary(pl):	Zestaw perkusyjny 3355606 dla Hydrogena
+Summary(pl.UTF-8):   Zestaw perkusyjny 3355606 dla Hydrogena
 Group:		Applications/Sound
 Requires:	hydrogen >= %{hydrogen_version}
 
 %description 3355606
 Hydrogen drumkit 3355606.
 
-%description 3355606 -l pl
+%description 3355606 -l pl.UTF-8
 Zestaw perkusyjny 3355606 dla Hydrogena.
 
 %package DrumkitPack1
 Summary:	Hydrogen drumkit DrumkitPack1
-Summary(pl):	Zestaw perkusyjny DrumkitPack1 dla Hydrogena
+Summary(pl.UTF-8):   Zestaw perkusyjny DrumkitPack1 dla Hydrogena
 Group:		Applications/Sound
 Requires:	hydrogen >= %{hydrogen_version}
 
 %description DrumkitPack1
 Hydrogen drumkit DrumkitPack1.
 
-%description DrumkitPack1 -l pl
+%description DrumkitPack1 -l pl.UTF-8
 Zestaw perkusyjny DrumkitPack1 dla Hydrogena.
 
 %package DrumkitPack2
 Summary:	Hydrogen drumkit DrumkitPack2
-Summary(pl):	Zestaw perkusyjny DrumkitPack2 dla Hydrogena
+Summary(pl.UTF-8):   Zestaw perkusyjny DrumkitPack2 dla Hydrogena
 Group:		Applications/Sound
 Requires:	hydrogen >= %{hydrogen_version}
 
 %description DrumkitPack2
 Hydrogen drumkit DrumkitPack2.
 
-%description DrumkitPack2 -l pl
+%description DrumkitPack2 -l pl.UTF-8
 Zestaw perkusyjny DrumkitPack2 dla Hydrogena.
 
 %package EasternHop-1
 Summary:	Hydrogen drumkit EasternHop-1
-Summary(pl):	Zestaw perkusyjny EasternHop-1 dla Hydrogena
+Summary(pl.UTF-8):   Zestaw perkusyjny EasternHop-1 dla Hydrogena
 Group:		Applications/Sound
 Requires:	hydrogen >= %{hydrogen_version}
 
 %description EasternHop-1
 Hydrogen drumkit EasternHop-1.
 
-%description EasternHop-1 -l pl
+%description EasternHop-1 -l pl.UTF-8
 Zestaw perkusyjny EasternHop-1 dla Hydrogena.
 
 %package TD-7
 Summary:	Hydrogen drumkit TD-7
-Summary(pl):	Zestaw perkusyjny TD-7 dla Hydrogena
+Summary(pl.UTF-8):   Zestaw perkusyjny TD-7 dla Hydrogena
 Group:		Applications/Sound
 Requires:	hydrogen >= %{hydrogen_version}
 
 %description TD-7
 Hydrogen drumkit TD-7.
 
-%description TD-7 -l pl
+%description TD-7 -l pl.UTF-8
 Zestaw perkusyjny TD-7 dla Hydrogena.
 
 %package UltraAcousticKit
 Summary:	Hydrogen drumkit UltraAcousticKit
-Summary(pl):	Zestaw perkusyjny UltraAcousticKit
+Summary(pl.UTF-8):   Zestaw perkusyjny UltraAcousticKit
 Group:		Applications/Sound
 Requires:	hydrogen >= %{hydrogen_version}
 
 %description UltraAcousticKit
 Hydrogen drumkit UltraAcousticKit.
 
-%description UltraAcousticKit -l pl
+%description UltraAcousticKit -l pl.UTF-8
 Zestaw perkusyjny UltraAcousticKit dla Hydrogena.
 
 %package Millo-MultiLayered2
 Summary:	Hydrogen drumkit Millo-MultiLayered2
-Summary(pl):	Zestaw perkusyjny Millo-MultiLayered2 dla Hydrogena
+Summary(pl.UTF-8):   Zestaw perkusyjny Millo-MultiLayered2 dla Hydrogena
 Group:		Applications/Sound
 Requires:	hydrogen >= %{hydrogen_version}
 
 %description Millo-MultiLayered2
 Hydrogen drumkit Millo-MultiLayered2.
 
-%description Millo-MultiLayered2 -l pl
+%description Millo-MultiLayered2 -l pl.UTF-8
 Zestaw perkusyjny Millo-MultiLayered2 dla Hydrogena.
 
 %package HardElectro1
 Summary:	Hydrogen drumkit HardElectro1
-Summary(pl):	Zestaw perkusyjny HardElectro1 dla Hydrogena
+Summary(pl.UTF-8):   Zestaw perkusyjny HardElectro1 dla Hydrogena
 Group:		Applications/Sound
 Requires:	hydrogen >= %{hydrogen_version}
 
 %description HardElectro1
 Hydrogen drumkit HardElectro1.
 
-%description HardElectro1 -l pl
+%description HardElectro1 -l pl.UTF-8
 Zestaw perkusyjny HardElectro1 dla Hydrogena.
 
 %package ErnysPercussion
 Summary:	Hydrogen drumkit ErnysPercussion
-Summary(pl):	Zestaw perkusyjny ErnysPercussion dla Hydrogena
+Summary(pl.UTF-8):   Zestaw perkusyjny ErnysPercussion dla Hydrogena
 Group:		Applications/Sound
 Requires:	hydrogen >= %{hydrogen_version}
 
 %description ErnysPercussion
 Hydrogen drumkit ErnysPercussion.
 
-%description ErnysPercussion -l pl
+%description ErnysPercussion -l pl.UTF-8
 Zestaw perkusyjny ErnysPercussion dla Hydrogena.
 
 %package Millo-Drums_v.1
 Summary:	Hydrogen drumkit Millo-Drums_v.1
-Summary(pl):	Zestaw perkusyjny Millo-Drums_v.1 dla Hydrogena
+Summary(pl.UTF-8):   Zestaw perkusyjny Millo-Drums_v.1 dla Hydrogena
 Group:		Applications/Sound
 Requires:	hydrogen >= %{hydrogen_version}
 
 %description Millo-Drums_v.1
 Hydrogen drumkit Millo-Drums_v.1.
 
-%description Millo-Drums_v.1 -l pl
+%description Millo-Drums_v.1 -l pl.UTF-8
 Zestaw perkusyjny Millo-Drums_v.1 dla Hydrogena.
 
 %package Electric-Empire-Kit
 Summary:	Hydrogen drumkit Electric Empire Kit
-Summary(pl):	Zestaw perkusyjny Electric Empire Kit dla Hydrogena
+Summary(pl.UTF-8):   Zestaw perkusyjny Electric Empire Kit dla Hydrogena
 Group:		Applications/Sound
 Requires:	hydrogen >= %{hydrogen_version}
 
 %description Electric-Empire-Kit
 Hydrogen drumkit Electric Empire Kit.
 
-%description Electric-Empire-Kit -l pl
+%description Electric-Empire-Kit -l pl.UTF-8
 Zestaw perkusyjny ElectricEmpireKit dla Hydrogena.
 
 %package Yamaha-Vintage-Kit
 Summary:	Hydrogen drumkit Yamaha Vintage Kit
-Summary(pl):	Zestaw perkusyjny Yamaha Vintage Kit dla Hydrogena
+Summary(pl.UTF-8):   Zestaw perkusyjny Yamaha Vintage Kit dla Hydrogena
 Group:		Applications/Sound
 Requires:	hydrogen >= %{hydrogen_version}
 
 %description Yamaha-Vintage-Kit
 Hydrogen drumkit Yamaha Vintage Kit.
 
-%description Yamaha-Vintage-Kit -l pl
+%description Yamaha-Vintage-Kit -l pl.UTF-8
 Zestaw perkusyjny Yamaha Vintage Kit dla Hydrogena.
 
 %prep
