@@ -30,6 +30,7 @@ Source10:	http://artemiolabs.com/downloads/audio/hydrogen/EE.tar.bz2
 Source11:	http://www.hydrogen-music.org/download/drumkits/YamahaVintageKit.zip
 # Source11-md5:	0ece14af942ecacf2de26bbcd57ce41e
 URL:		http://hydrogen.sourceforge.net/
+BuildRequires:	unzip
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
